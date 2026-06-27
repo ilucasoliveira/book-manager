@@ -1,0 +1,17 @@
+[project]
+name = "book-manager"
+version = "0.1.0"
+description = "API for managing a personal library"
+authors = [
+    {name = "Lucas",email = "lucasdeoliveira937@gmail.com"}
+]
+requires-python = ">=3.14"
+dependencies = [
+    "fastapi[standard] (>=0.138.1,<0.139.0)",
+    "python-dotenv (>=1.2.2,<2.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
